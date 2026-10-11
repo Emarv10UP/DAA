@@ -1,27 +1,23 @@
 1. Problem
-Briefly describe the problem in your own words.
+Determine if a singly linked list reads the same forwards and backwards.
 
 2. Approach
-Explain how your solution works.
+How it works: Traverse the linked list using a pointer, extract each node's value, and store them in a Python list. Then, check if the list equals its own reverse (b == b[::-1]).
 
-Do not copy the problem description or another solution.
+Tracing Example (1 -> 2 -> 2 -> 1):
 
-Please, provide written tracing of your approach with examples: visualize/describe iterations 
+Collect values into b = [1, 2, 2, 1].
 
-Explain the challenges you faced while searching for a solution including testing approaches that did not work and explain why with your own words
+Compare b with its reverse [1, 2, 2, 1] -> Match (True).
 
-3. Time Complexity
-State the time complexity of your solution.
+Challenges: Reversing the linked list in-place destroys the original structure, and recursion can be messy. Storing values in an array is simpler and cleaner, avoiding pointer manipulation bugs.
 
-For example:
+3. Time & Space Complexity
+Time Complexity: O(n) — We traverse the list once and compare the array in linear time.
 
-Time Complexity: O(n)
+Space Complexity: O(n) — Extra memory is used to store node values in the list.
 
-Then explain why.
+4. Reflection / Improvement
+More efficient approach? Yes, we can achieve O(1) space complexity.
 
-5. Reflection / Improvement
-Answer briefly:
-
-Is there a more efficient approach?
-What would you need to change?
-What complexity could the improved solution achieve?
+What to change? Use fast and slow pointers to find the middle, reverse the second half of the list in-place, and compare it with the first half.
