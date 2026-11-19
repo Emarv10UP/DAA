@@ -12,7 +12,7 @@ class Solution:
         # Subtract the current node's value from the target sum
         targetSum -= root.val
         
-        # If it's a leaf node, check if the remaining targetSum is 0
+       
         if not root.left and not root.right:
             return targetSum == 0
             
