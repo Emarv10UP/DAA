@@ -15,7 +15,7 @@ class Solution:
         while queue:
             node, depth = queue.popleft()
             
-            # The first leaf node we hit in BFS is guaranteed to have the minimum depth
+        
             if not node.left and not node.right:
                 return depth
             
