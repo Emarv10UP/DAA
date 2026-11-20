@@ -1,7 +1,6 @@
 # Path Sum
 
 **LeetCode:** [Path Sum](https://leetcode.com/problems/path-sum/)  
-**Implementation:** recursive DFS in Python — [`solution.py`](./solution.py)
 
 ## 1. Problem
 
