@@ -1,7 +1,7 @@
 # Merge Two Binary Trees
 
 **LeetCode:** [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)  
-**Implementation:** recursive DFS that creates new nodes for overlapping positions, in Python — [`solution.py`](./solution.py)
+
 
 ## 1. Problem
 
