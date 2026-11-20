@@ -1,5 +1,5 @@
 # DAA
-# Week 6 — Binary Tree Problems
+# Week 6 - Binary Tree Problems
 
 This folder contains solutions and reports for the ten assigned LeetCode problems on binary trees. Each problem has its own directory with the submitted code (`solution.py`) and a report (`README.md`) describing the problem, the approach, a trace example, edge cases, time and space complexity, and possible improvements.
 
@@ -27,10 +27,3 @@ Notation: `n` — number of nodes, `h` — height of the tree (`O(log n)` if bal
 - **DFS vs. BFS.** Recursive or stack-based DFS uses memory proportional to the height `h`; queue-based BFS uses memory proportional to the width `w`. BFS is natural for "level" questions (tasks 02 and 03), and it lets task 03 stop at the first leaf it finds.
 - **Recursion vs. explicit stack.** Tasks 05 and 06 replace recursion with an explicit stack, which avoids Python's recursion-depth limit on very deep trees.
 - **Leaf checks.** Tasks 03, 04, 08 and 09 depend on the exact definition of a leaf: a node with **no** left child **and** no right child.
-
-## Submission checklist
-
-- [x] Add the corresponding source file to each problem directory (`solution.py`).
-- [x] Make sure each report describes the code that is actually submitted (iterative solutions in tasks 02, 03, 05 and 06 are described as iterative).
-- [ ] Run the edge-case tests described in each report on LeetCode and record any real debugging issue you encountered.
-- [ ] Confirm that the `week6` directory is inside the public `DAA` GitHub repository.
