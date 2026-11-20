@@ -1,7 +1,6 @@
 # Binary Tree Inorder Traversal
 
 **LeetCode:** [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
-**Implementation:** recursive DFS in Python — [`solution.py`](./solution.py)
 
 ## 1. Problem
 
