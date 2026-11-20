@@ -1,7 +1,7 @@
 # Binary Tree Paths
 
 **LeetCode:** [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)  
-**Implementation:** recursive DFS with backtracking in Python — [`solution.py`](./solution.py)
+
 
 ## 1. Problem
 
