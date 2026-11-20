@@ -1,7 +1,6 @@
 # Minimum Depth of Binary Tree
 
 **LeetCode:** [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  
-**Implementation:** iterative BFS with early exit in Python — [`solution.py`](./solution.py)
 
 ## 1. Problem
 
