@@ -1,7 +1,7 @@
 # Maximum Depth of Binary Tree
 
 **LeetCode:** [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  
-**Implementation:** iterative BFS (level-order traversal) in Python — [`solution.py`](./solution.py)
+
 
 ## 1. Problem
 
