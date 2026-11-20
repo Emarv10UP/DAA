@@ -1,7 +1,7 @@
 # Binary Tree Postorder Traversal
 
 **LeetCode:** [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  
-**Implementation:** iterative DFS with one stack and a final reversal in Python — [`solution.py`](./solution.py)
+
 
 ## 1. Problem
 
