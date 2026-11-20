@@ -1,7 +1,6 @@
 # Binary Tree Preorder Traversal
 
 **LeetCode:** [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  
-**Implementation:** iterative DFS with an explicit stack in Python — [`solution.py`](./solution.py)
 
 ## 1. Problem
 
